@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+/* css header */
+.section1 {
+    background-color: #fff;
+    box-shadow: 0px 0px 35.77px 13.23px rgba(5, 5, 161, 0.16);
+}
+
+.nav-menu ul .nav-item .nav-link {
+    font-size: 0.875rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #2f2f2f;
+    padding: 30px 10px;
+}
+
+.nav-img .navbar-brand {
+    color: #f23b43;
+    text-shadow: 1px 1px 2px #999999;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.nav-menu ul li {
+    margin-right: 10px;
+}
+
+.nav-menu ul .nav-item .nav-link:hover {
+    color: #f23b43;
+}
+
+/* end css header   */
+
+
+/* css ablum */
+.zoom-In img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    display: block;
+    cursor: pointer;
+}
+
+.ablum-top {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.a-btn i {
+    content: "\f101";
+    font-size: 16px;
+    font-size: 1.06667rem;
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    top: 31%;
+
+}
+
+.ablum-top .a-btn {
+    margin-top: 10px;
+    background-color: #c89d9c;
+    color: #fff;
+    padding: 10px 50px 15px 25px;
+    font-weight: 700;
+    border: 0;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+}
+
+.ablum-top h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0 0 0.39em;
+}
+
+.ablum-top p {
+    font-size: 1.13333rem;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.zoom-In figure img {
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.zoom-In figure:hover img {
+    transform: scale(1.1);
+}
+
+.zoom-In figure {
+    overflow: hidden;
+}
+
+/* end ablum */
+/* timeline */
+
+/* css avatar */
+.container-ava {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.before-at {
+    position: relative;
+    text-align: center;
+    margin-left: -65px;
+    margin-top: 50px;
+}
+
+.before-top:before {
+    content: "";
+    background: url(../image/img-ava.png) center center/cover no-repeat local;
+    width: 126px;
+    height: 59px;
+    position: absolute;
+    top: 0;
+    margin-right: -50px;
+
+}
+
+.section-title {
+    text-align: center;
+
+    margin-top: 60px;
+}
+
+.section-title h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0 0 0.39em;
+}
+
+.section-title p {
+    font-size: 1.13333rem;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.avatar-bg {
+    background: #F2EDED !important;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    width: 570px;
+    margin-bottom: 80px;
+}
+
+.avatar-img img {
+    width: 200px;
+    border-radius: 50%;
+    width: 100%;
+}
+
+.avatar-p {
+    margin-left: 20px;
+
+}
+
+.avatar-icon {
+    display: flex;
+    padding-left: 0;
+}
+
+.avatar-icon li {
+    list-style: none;
+    margin-right: 9px;
+}
+
+.avatar-icon li a {
+    font-size: 1.2rem;
+    color: #c89d9c;
+}
+
+.avatar-p h2 {
+    font-family: "dancing_scriptregular", cursive;
+    font-size: 2rem;
+}
+
+.avatar-p h4 {
+    color: #c89d9c;
+}
+
+.avatar-p p {
+    color: #444;
+    line-height: 1.3em;
+}
+
+/* end css avatar */
+
+
+/* css love */
+.section-love {
+    background: url(../image/bglove.png) center center/cover no-repeat local;
+    text-align: center;
+}
+
+.nav-love {
+    background-color: #fff;
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 65px;
+    box-shadow: 0px 14px 36.21px 14.79px rgb(177 154 86 / 9%);
+    border-radius: 10px;
+    position: relative;
+    padding-bottom: 95px;
+    margin-bottom: 60px;
+}
+
+.nav-love h3 {
+    font-family: "Great Vibes", cursive;
+    font-size: 33px;
+    font-size: 2.4625rem;
+    margin: 0 0 0.4em;
+    color: #f23b43;
+}
+
+.nav-love h4 {
+    color: #2f2f2f;
+}
+
+.nav-h2-love h2 {
+    font-family: "Great Vibes", cursive;
+    font-size: 48px;
+    font-size: 3rem;
+    color: #2f2f2f;
+    margin: 0;
+    text-transform: capitalize;
+    position: relative;
+    margin-top: 40px;
+}
+
+.love-img-1 img {
+    width: 66%;
+    margin: 0 auto;
+}
+
+.nav-love p {
+    color: #818492;
+    line-height: 1.8em;
+    margin-top: 20px;
+}
+
+.love-1 samp i {
+    color: #f23b43;
+    font-size: 25px;
+}
+
+.hoa-befor {
+    position: relative;
+}
+
+.befo:after {
+    content: "";
+    background: url(../image/888.png) center center/cover no-repeat local;
+    width: 394px;
+    height: 311px;
+    position: absolute;
+    left: -359px;
+    top: 20%;
+    z-index: -10;
+}
+
+/* .hoa-befor-1{
+    position: relative;
+}
+.befo-1:after{
+    content: "";
+    background: url(../image/888.png) center center/cover no-repeat local;
+    width: 394px;
+    height: 311px;
+    position: absolute;
+    left: 660px;
+    top: 20%;
+    z-index: -10;
+} */
+.hoa-befor-2 {
+    position: relative;
+}
+
+.befo-2:after {
+    content: "";
+    background: url(../image/888.png) center center/cover no-repeat local;
+    width: 394px;
+    height: 311px;
+    position: absolute;
+    left: -359px;
+    top: 20%;
+    z-index: -10;
+}
+
+/* end css love */
+
+/* footer */
+.footer-style-1 {
+    background: url(../image/bgft.png) center bottom/100% no-repeat local;
+    text-align: center;
+    height: 100vh;
+    max-width: 100%;
+    min-height: 900px;
+    position: relative;
+}
+
+.footer-style-1 .inner-footer {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+
+}
+
+.footer-style-1 .couple-pic {
+    background: url(../image/bgftavta.png) center center/cover no-repeat local;
+    width: 511px;
+    height: 470px;
+    top: -276px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.footer-style-1 .couple-pic img {
+    max-width: 75%;
+    border-radius: 50%;
+    position: absolute;
+    left: 11%;
+    top: 4%;
+
+}
+
+.couple-pic {
+    width: 100%;
+}
+
+.inner-footer h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 72px;
+    font-size: 4.8rem;
+    line-height: 1.8em;
+    margin: 0.8em 0;
+    position: absolute;
+    margin-left: 66px;
+    margin-top: 462px;
+}
+
+@media (max-width: 767px) {
+    .footer-style-1 .couple-pic img {
+        max-width: 72%;
+
+        background-size: cover;
+    }
+
+    .footer-style-1 .couple-pic {
+        width: 300px;
+        height: 276px;
+    }
+
+    .inner-footer h2 {
+        font-size: 40px;
+        left: -23px;
+        bottom: -112px;
+    }
+
+    .avatar-p h2 {
+        font-size: 20px;
+    }
+
+    .avatar-p h4 {
+        font-size: 15px;
+    }
+
+    .avatar-p p {
+        font-size: 13px;
+    }
+
+    .love-1 h3 {
+        font-size: 30px;
+    }
+
+    .love-1 h4 {
+        font-size: 20px;
+    }
+
+    .love-1 p {
+        font-size: 13px;
+    }
+
+    .slider--title {
+        font-size: 2rem;
+    }
+
+    .section-title h2 {
+        font-size: 30px;
+    }
+
+    .section-title p {
+        font-size: 15px;
+    }
+
+    .nav-h2-love h2 {
+        font-size: 30px;
+    }
+
+    .ablum-top h2 {
+        font-size: 30px;
+    }
+
+    .ablum-top p {
+        font-size: 15px;
+    }
+
+    .slider__btn-right,
+    .slider__btn-left {
+        z-index: 300;
+    }
+
+    .slider-pagi__elem:hover:before {
+        transform: translate(-50%, -50%) scale(1);
+        width: 1.1rem;
+        height: 1.1rem;
+    }
+
+    .slider--text {
+        font-size: 1rem;
+    }
+
+    .slider--text::before {
+        margin: 5px 15px;
+
+    }
+
+    .slider--text::after {
+        margin: 5px 15px;
+    }
+
+    .couple__date {
+        height: 100vh;
+    }
+
+    .site__logo--title {
+        font-size: 1.5rem;
+    }
+
+    .inner-footer--title {
+        font-size: 2.1rem;
+    }
+
+    .inner-footer--subtitle {
+        font-size: 12px;
+    }
+
+    .inner-footer--textName {
+        font-size: 1.1rem;
+    }
+
+    .inner-footer--text {
+        font-size: 15px;
+    }
+
+    .calendar_weekdays .weeks span {
+        padding: 5px;
+    }
+
+    .inviditation-box .right-vec {
+        display: none;
+    }
+}
+
+/* end ft */

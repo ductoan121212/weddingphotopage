@@ -1,0 +1,832 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+*, *:before, *:after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body::-webkit-scrollbar {
+	width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: #C89D9C;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	color: #000;
+}
+
+ul li {
+	list-style: none;
+}
+
+body {
+	font-family: 'Comfortaa', sans-serif;
+}
+
+.top-bar {
+	background: rgb(255, 255, 255);
+	text-align: center;
+	padding: 25px 0px 5px;
+	border-bottom: 1px solid rgb(239, 239, 239);
+	position: relative;
+	z-index: 1;
+}
+
+.site__logo {
+	display: inline-block;
+}
+
+.site__logo--title {
+	font-size: 2.5rem;
+	margin: -0.12em 0 0.5em;
+	font-family: 'Great Vibes', cursive;
+	font-weight: 700;
+	/* text-shadow: #000 2px 1px 2px; */
+}
+
+.site__logo--title img {
+	width: 50px;
+	height: 50px;
+	margin: 0 10px 0;
+}
+
+.site__logo--text {
+	color: #797979;
+	font-weight: 300;
+	font-size: 12px;
+	font-size: 0.8rem;
+	display: inline-block;
+	position: relative;
+	letter-spacing: 2px;
+}
+
+.site__logo--text::before {
+	content: "";
+	border-top: 1px solid #797979;
+	display: inline-block;
+	margin: 3px 15px;
+	width: 20px;
+	height: 1px;
+
+}
+
+.site__logo--text::after {
+	content: "";
+	border-top: 1px solid #797979;
+	display: inline-block;
+	margin: 3px 15px;
+	width: 20px;
+	height: 1px;
+}
+
+.slider {
+	background-position: center;
+	object-fit: cover;
+	height: 75vh;
+	width: 100%;
+}
+
+.slider--content {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 75vh;
+}
+
+.slider--feature {
+	text-align: center;
+}
+
+.heart {
+	width: 80px;
+	height: 80px;
+	opacity: .7;
+}
+
+.slider--title {
+	font-size: 7.5rem;
+	color: #fff;
+	font-family: 'Great Vibes', cursive;
+	font-weight: 500;
+	text-shadow: #000 5px 5px 5px;
+}
+
+.slider--text {
+	font-size: 2rem;
+	color: #fff;
+	margin: 0.5rem 0;
+	text-shadow: #000 2px 1px 3px;
+}
+
+.slider--text::before {
+	content: "";
+	border-top: 1px solid #fff;
+	display: inline-block;
+	margin: 10px 15px;
+	width: 40px;
+	height: 1px;
+
+}
+
+.slider--text::after {
+	content: "";
+	border-top: 1px solid #fff;
+	display: inline-block;
+	margin: 10px 15px;
+	width: 40px;
+	height: 1px;
+}
+
+.slider-pagi__elem {
+
+	vertical-align: top;
+	width: 1.4rem !important;
+	height: 1.4rem !important;
+	margin: 0 0.5rem;
+	border-radius: 50%;
+	color: #f14148;
+	cursor: pointer;
+}
+
+.save-the-date {
+	width: 100%;
+	padding: 10rem 0 8rem;
+	background: url(../image/bg.png);
+	align-items: center;
+	display: flex;
+}
+
+.inviditation-box {
+	background: rgb(255, 255, 255);
+	max-width: 580px;
+	height: fit-content;
+	padding: 3rem;
+}
+
+.inviditation-box .left-vec {
+	background: url(../image/flower-framepng.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	width: 20rem;
+	height: 20rem;
+	position: absolute;
+	margin-left: -145px;
+	margin-top: -130px;
+	z-index: 500;
+	transform: rotate(-0.25turn);
+	opacity: .5;
+}
+
+.inviditation-box .right-vec {
+	background: url(../image/flower-framepng.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	width: 20rem;
+	height: 20rem;
+	position: absolute;
+	margin-left: 293px;
+	margin-top: -193px;
+	z-index: 500;
+	transform: rotate(90deg);
+	opacity: .5;
+}
+
+.inviditation-box .divider {
+	border: 5px solid rgba(129, 103, 103, 0.4);
+	width: 100%;
+	height: 100%;
+}
+
+.inner {
+	text-align: center;
+	padding: 6rem 2rem;
+	font-family: 'Comfortaa', sans-serif;
+}
+
+.inner-right {
+	padding: 2rem 1rem;
+	font-family: 'Comfortaa', sans-serif;
+}
+
+.inner--title {
+	font-size: 3.5rem;
+	color: #000000;
+	font-family: 'Great Vibes', cursive;
+}
+
+.inner--subtitle {
+	font-size: 1rem;
+	color: #797979;
+}
+
+.inner--textName {
+	font-size: 1.5rem;
+	color: #000000;
+	font-weight: bold;
+}
+
+.inner--text {
+	font-size: 1.2rem;
+	color: #3f3f3f;
+}
+
+.btn-send_message {
+	padding: 10px;
+	background: #C89D9C;
+	color: #fff;
+	border: none;
+}
+
+.btn-send_message:hover {
+	color: #fff;
+	background: #e0a6a5;
+}
+
+.calendar {
+	cursor: default;
+}
+
+.calendar .calendar_header {
+	font-size: 1rem;
+	font-weight: 800;
+}
+
+.calendar_weekdays .week-days {
+	font-size: 12px;
+	color: #797979;
+	display: flex;
+	justify-content: space-between;
+	font-weight: 500;
+	padding: 3px 10px;
+	border-top: 1px solid #797979;
+	border-bottom: 1px solid #797979;
+}
+
+.calendar_weekdays .weeks {
+	color: #797979;
+	display: flex;
+	flex-direction: column;
+	padding: 5px 4px 5px;
+	border-bottom: 1px solid #797979;
+}
+
+.calendar_weekdays .weeks div {
+	display: flex;
+	font-size: 15px;
+	font-weight: 300;
+	justify-content: space-between;
+	margin-bottom: 5px;
+	width: 100%;
+}
+
+.last-month {
+	opacity: .3;
+}
+
+.calendar_weekdays .weeks span {
+	padding: 10px;
+}
+
+.calendar_weekdays .weeks span.event {
+	background: #C89D9C;
+	border-radius: 50%;
+	color: #fff;
+}
+
+
+/* Back - Event form */
+
+
+.couple__love {
+	background: #ffe2e5;
+	padding: 0;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.group__button_payment .btn-container {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.group__button_payment .btn-container .group__button_payment-btn {
+	padding: 15px 20px !important;
+	min-width: 220px !important;
+	margin: 10px 5px 0 !important;
+	font-size: .85rem !important;
+	text-transform: uppercase;
+}
+
+.theme-btn {
+	background-color: #C89D9C;
+	color: #fff;
+	font-weight: bold;
+	padding: 12px 30px;
+	border: 0;
+	outline: 0;
+	display: inline-block;
+	border-radius: 50px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+	text-transform: uppercase;
+}
+
+.couple__date {
+	width: 100%;
+	height: 600px;
+	background-image: url(../image/CHECKMAU/DSC03244_22.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 8rem;
+}
+
+.couple__date--content {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.couple__date .couple__date--feature {
+	text-align: center;
+	width: 100%;
+	height: 15%;
+}
+
+.couple__date .couple__date--feature .couple__date--title {
+	font-size: 4rem;
+	color: #fff;
+	font-family: 'Great Vibes', cursive;
+	font-weight: 500;
+	text-shadow: #000 2px 1px 2px;
+}
+
+.couple__date .couple__date--feature .couple__date--text {
+	font-size: 1rem;
+	color: #fff;
+	font-family: 'Comfortaa', sans-serif;
+	font-weight: 500;
+	text-shadow: #000 2px 1px 2px;
+}
+
+.clock-grids {
+	color: #C89D9C;
+}
+
+.clock-grids #clock {
+	overflow: hidden;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.clock-grids #clock .box {
+	width: 25%;
+	height: 100px;
+	float: left;
+	display: table;
+	color: #797979;
+}
+
+.clock-grids #clock .box p {
+	margin: 0 !important;
+}
+
+.clock-grids #clock .box .text-theme {
+	font-size: 3.5rem;
+	color: #C89D9C;
+	font-family: 'Great Vibes', cursive;
+}
+
+.waves-light {
+	margin: 1rem;
+	display: inline-block;
+	width: 4rem;
+	height: 4rem;
+	color: #000000;
+	background: #e9b6b6;
+	border: 3px solid #f58080;
+	border-radius: 50%;
+	padding: 16px 25px;
+}
+
+.waves-light:hover {
+	color: #000000;
+	background: #f58080;
+}
+
+.btn__play-audio {
+	position: -webkit-sticky;
+	position: sticky;
+	bottom: 5%;
+	margin-left: 1%;
+}
+
+.btn__play-audio i {
+	background-color: #f23b43;
+	padding: 20px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.modal-dialog {
+	max-width: 800px;
+	margin: 30px auto;
+	position: relative;
+}
+
+.modal {
+	height: 100vh;
+}
+
+.modal-content {
+	border-left: 10px solid rgba(255, 255, 255, .2);
+	border-right: 10px solid rgba(255, 255, 255, .2);
+	border-bottom: 10px solid rgba(255, 255, 255, .2);
+	background-color: rgba(255, 255, 255, .2);
+}
+
+.modal-body {
+	position: relative;
+	padding: 0px;
+}
+
+.btn-close {
+	right: -30px;
+	top: 0;
+}
+
+
+
+
+.even__wedding {
+	background: #F2EDED;
+	padding: 0;
+	position: relative;
+	padding-bottom: 90px;
+}
+
+.even__wedding--content {
+	background-image: url(../image/CHECKMAU/DSC03975_22.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	width: 100%;
+	height: 60%;
+	padding: 120px 0px 250px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.even__wedding .even__wedding--feature {
+	text-align: center;
+	width: 100%;
+	height: 0%;
+}
+
+.even__wedding .even__wedding--feature .even__wedding--title {
+	font-size: 4rem;
+	color: #fff;
+	font-family: 'Great Vibes', cursive;
+	font-weight: 500;
+	text-shadow: 3px 1px 2px #000, 0 0 1em #000, 0 0 0.2em #000;
+}
+
+.even__wedding .even__wedding--feature .even__wedding--text {
+	font-size: 1rem;
+	color: #fff;
+	font-family: 'Comfortaa', sans-serif;
+	font-weight: 500;
+	text-shadow: 3px 1px 2px #000, 0 0 1em #000, 0 0 0.2em #000;
+}
+
+.even__wedding--card_group {
+	margin: 355px 0px 0px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	position: relative;
+}
+
+.even__wedding--card {
+	float: left;
+	padding: 20px;
+	margin: 0px 10px 30px;
+	text-align: center;
+	background: url(../image/bg.png);
+	box-shadow: rgb(178 201 211 / 18%) 0px 4px 13.65px 7.35px;
+}
+
+.even__wedding--card h3 {
+	font-size: 1.1rem;
+	position: relative;
+	margin: 0px 0px 1.4em;
+	padding: 0px 0px 0.8em;
+}
+
+.even__wedding--card h3::before {
+	content: "";
+	background: rgb(200, 157, 156);
+	width: 120px;
+	height: 2px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 0px;
+}
+
+.even__wedding--card .image-wrap {
+	margin-bottom: 20px;
+}
+
+.even__wedding--card .image-wrap img {
+	width: 100%;
+}
+
+.even__wedding--card .card--date {
+	color: #797979;
+	font-family: 'Comfortaa', sans-serif;
+}
+
+.even__wedding--card .card--text {
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 13px;
+}
+
+.even__wedding--card .see-location-btn {
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px 21px 8px;
+	border: 2px solid rgb(200, 157, 156);
+	color: rgb(129, 132, 146);
+	border-radius: 60px;
+	display: block;
+}
+
+.even__wedding--card .see-location-btn:hover {
+	background: rgb(200, 157, 156);
+	color: rgb(255, 255, 255);
+	transition: .3s ease;
+}
+
+.atcb-initialized {
+	display: block;
+}
+
+.calendar-button-btn {
+	font-family: 'Comfortaa', sans-serif;
+	width: 100%;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px 21px 8px;
+	border: 2px solid #797979;
+	color: rgb(0, 0, 0);
+	border-radius: 60px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.calendar-button-btn:hover {
+	background: #fff;
+}
+
+/* mobile */
+@media (max-width: 767px) {
+	.slider--feature {
+		position: absolute;
+		top: 50%;
+		left: 5%;
+	}
+
+	.slider--title {
+		font-size: 2rem;
+	}
+
+	.slider__btn-right,
+	.slider__btn-left {
+		z-index: 300;
+	}
+
+	.slider-pagi__elem:hover:before {
+		transform: translate(-50%, -50%) scale(1);
+		width: 1.1rem;
+		height: 1.1rem;
+	}
+
+	.slider--text {
+		font-size: 1rem;
+	}
+
+	.slider--text::before {
+		margin: 5px 15px;
+
+	}
+
+	.slider--text::after {
+		margin: 5px 15px;
+	}
+
+	.couple__date {
+		height: 100vh;
+	}
+
+	.site__logo--title {
+		font-size: 1.5rem;
+	}
+
+	.inner--title {
+		font-size: 2.1rem;
+	}
+
+	.inner--subtitle {
+		font-size: 12px;
+	}
+
+	.inner--textName {
+		font-size: 1.1rem;
+	}
+
+	.inner--text {
+		font-size: 15px;
+	}
+
+	.calendar_weekdays .weeks span {
+		padding: 5px;
+	}
+
+	.inviditation-box .right-vec {
+		display: none;
+	}
+}
+
+/* css heart falling  */
+.heartflake {
+	color: #fff;
+	font-size: 1em;
+	font-family: Arial;
+	text-shadow: 0 0 1px #000;
+}
+
+@-webkit-keyframes heartflakes-fall {
+	0% {
+		top: -10%
+	}
+
+	100% {
+		top: 100%
+	}
+}
+
+@-webkit-keyframes heartflakes-shake {
+	0% {
+		-webkit-transform: translateX(0px);
+		transform: translateX(0px)
+	}
+
+	50% {
+		-webkit-transform: translateX(80px);
+		transform: translateX(80px)
+	}
+
+	100% {
+		-webkit-transform: translateX(0px);
+		transform: translateX(0px)
+	}
+}
+
+@keyframes heartflakes-fall {
+	0% {
+		top: -10%
+	}
+
+	100% {
+		top: 100%
+	}
+}
+
+@keyframes heartflakes-shake {
+	0% {
+		transform: translateX(0px)
+	}
+
+	50% {
+		transform: translateX(80px)
+	}
+
+	100% {
+		transform: translateX(0px)
+	}
+}
+
+.heartflake img{
+	width: 24px;
+	height: 24px;
+}
+.heartflake {
+	position: fixed;
+	top: -10%;
+	z-index: 9999;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: default;
+	-webkit-animation-name: heartflakes-fall, heartflakes-shake;
+	-webkit-animation-duration: 10s, 3s;
+	-webkit-animation-timing-function: linear, ease-in-out;
+	-webkit-animation-iteration-count: infinite, infinite;
+	-webkit-animation-play-state: running, running;
+	animation-name: heartflakes-fall, heartflakes-shake;
+	animation-duration: 10s, 3s;
+	animation-timing-function: linear, ease-in-out;
+	animation-iteration-count: infinite, infinite;
+	animation-play-state: running, running
+}
+
+.heartflake:nth-of-type(0) {
+	left: 1%;
+	-webkit-animation-delay: 0s, 0s;
+	animation-delay: 0s, 0s
+}
+
+.heartflake:nth-of-type(1) {
+	left: 10%;
+	-webkit-animation-delay: 1s, 1s;
+	animation-delay: 1s, 1s
+}
+
+.heartflake:nth-of-type(2) {
+	left: 20%;
+	-webkit-animation-delay: 6s, .5s;
+	animation-delay: 6s, .5s
+}
+
+.heartflake:nth-of-type(3) {
+	left: 30%;
+	-webkit-animation-delay: 4s, 2s;
+	animation-delay: 4s, 2s
+}
+
+.heartflake:nth-of-type(4) {
+	left: 40%;
+	-webkit-animation-delay: 2s, 2s;
+	animation-delay: 2s, 2s
+}
+
+.heartflake:nth-of-type(5) {
+	left: 50%;
+	-webkit-animation-delay: 8s, 3s;
+	animation-delay: 8s, 3s
+}
+
+.heartflake:nth-of-type(6) {
+	left: 60%;
+	-webkit-animation-delay: 6s, 2s;
+	animation-delay: 6s, 2s
+}
+
+.heartflake:nth-of-type(7) {
+	left: 70%;
+	-webkit-animation-delay: 2.5s, 1s;
+	animation-delay: 2.5s, 1s
+}
+
+.heartflake:nth-of-type(8) {
+	left: 80%;
+	-webkit-animation-delay: 1s, 0s;
+	animation-delay: 1s, 0s
+}
+
+.heartflake:nth-of-type(9) {
+	left: 90%;
+	-webkit-animation-delay: 3s, 1.5s;
+	animation-delay: 3s, 1.5s
+}
